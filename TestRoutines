@@ -1,0 +1,63 @@
+Sub testParseJSON()
+    Dim oThing As Object
+    'Set oThing = parseJSON("C:\Users\Mark\Downloads\Small-REST-Output.txt")
+    'Set oThing = parseJSON("C:\Users\Mark\Downloads\Q_28906582.txt")
+    Set oThing = parseJSONfile("C:\Users\Mark\Downloads\Q_28918483.JSON.txt")
+
+'Note: DataSave does not currently serialize object data types
+'    DataSave oThing(1)
+
+    testIterateObject oThing, 0
+End Sub
+
+Function testIterateObject(parmObject As Object, parmDepth As Long)
+    Dim vItem As Variant
+    Dim oItem As Object
+    Dim strDelim As String
+    
+    Select Case TypeName(parmObject)
+        Case "Dictionary"
+            For Each vItem In parmObject
+                If VarType(parmObject(vItem)) = vbObject Then
+                    Debug.Print String(parmDepth, vbTab); vItem, "Count: " & parmObject(vItem).Count
+                    testIterateObject parmObject(vItem), parmDepth + 1
+                Else
+                    Select Case VarType(parmObject(vItem))
+                        Case VbVarType.vbString
+                            strDelim = """"
+                        Case VbVarType.vbDate
+                            strDelim = "#"
+                        Case Else
+                            strDelim = vbNullString
+                    End Select
+                    Debug.Print String(parmDepth, vbTab); vItem, strDelim & parmObject(vItem) & strDelim
+                End If
+            Next
+        Case "Collection"
+            For Each vItem In parmObject
+                If VarType(vItem) = vbObject Then
+                    'Debug.Print vItem
+                    Set oItem = vItem
+                    testIterateObject oItem, parmDepth + 1
+                Else
+                    Select Case VarType(vItem)
+                        Case VbVarType.vbString
+                            strDelim = """"
+                        Case VbVarType.vbDate
+                            strDelim = "#"
+                        Case Else
+                            strDelim = vbNullString
+                    End Select
+                    Debug.Print String(parmDepth, vbTab); strDelim & vItem & strDelim
+                End If
+            Next
+    End Select
+End Function
+
+Sub DataSave(parmObject As Object)
+'To Do: correctly persist the parsed object data in a friendly format
+'Solution paths:
+'    * intrinsic VB I/O
+'    * ADODB recordset and stream
+'    * XML - seems like a cheat
+End Sub
