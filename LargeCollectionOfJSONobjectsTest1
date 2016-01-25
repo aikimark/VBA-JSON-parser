@@ -1,0 +1,1443 @@
+[
+
+    {
+        "id": 1,
+        "type": "Asset",
+        "assetNumber": "1",
+        "contractExpiration": "2014-09-30T07:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2013-12-30T08:00:00Z",
+        "serialNumber": null,
+        "version": "2010",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 2,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 2,
+            "modelId": 2,
+            "modelName": "Visio Professional",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 2,
+                "type": "Manufacturer",
+                "address": null,
+                "city": null,
+                "country": "USA",
+                "fax": null,
+                "fullName": "Microsoft",
+                "manufacturerId": 2,
+                "name": "MS",
+                "phone": null,
+                "postalCode": null,
+                "state": null,
+                "url": "http://www.microsoft.com"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [
+            {
+                "id": 3,
+                "type": "Client"
+            },
+            {
+                "id": 9,
+                "type": "Client"
+            }
+        ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2014-12-30T08:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 70,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "Catalina; SCOPE; Site-B; Site-W"
+            },
+            {
+                "id": 13,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": null
+            },
+            {
+                "id": 78,
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 15,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "Windows 7"
+            },
+            {
+                "id": 24,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": "Proprietary"
+            },
+            {
+                "id": 14,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": "Asset",
+        "assetNumber": "10",
+        "contractExpiration": "2014-08-31T07:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2013-08-31T07:00:00Z",
+        "serialNumber": null,
+        "version": "5.2.3",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 35,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 19,
+            "modelId": 35,
+            "modelName": "Confluence",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 19,
+                "type": "Manufacturer",
+                "address": "Level 6, 341 George St",
+                "city": "Sydney",
+                "country": "Australia",
+                "fax": null,
+                "fullName": "Atlassian",
+                "manufacturerId": 19,
+                "name": "Atlassian",
+                "phone": "+61 2 9262 1443",
+                "postalCode": "2000",
+                "state": "NSW",
+                "url": "https://www.atlassian.com/"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2014-08-31T07:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 59,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "Catalina; SCOPE; Site-B; Site-W"
+            },
+            {
+                "id": 19,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": null
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 21,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "RHEL 5; RHEL 6"
+            },
+            {
+                "id": 27,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": "Proprietary"
+            },
+            {
+                "id": 23,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "type": "Asset",
+        "assetNumber": "11",
+        "contractExpiration": "2014-09-30T07:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2014-08-21T07:00:00Z",
+        "serialNumber": null,
+        "version": "11g",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 68,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 23,
+            "modelId": 68,
+            "modelName": "Database Enterprise Edition",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 23,
+                "type": "Manufacturer",
+                "address": "500 Oracle Parkway",
+                "city": "Redwood Shores",
+                "country": "USA",
+                "fax": null,
+                "fullName": "Oracle Corporation",
+                "manufacturerId": 23,
+                "name": "Oracle",
+                "phone": "+1.650.506.7000",
+                "postalCode": "94065",
+                "state": "CA",
+                "url": "http://www.oracle.com"
+            }
+        },
+        "warrantyType": null,
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": null,
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 57,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "Catalina; SCOPE"
+            },
+            {
+                "id": 30,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": "SDN; SPIN"
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 28,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "RHEL 5; RHEL 6"
+            },
+            {
+                "id": 29,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": "Proprietary"
+            },
+            {
+                "id": 31,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "type": "Asset",
+        "assetNumber": "12",
+        "contractExpiration": "2014-12-31T08:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2013-12-31T08:00:00Z",
+        "serialNumber": null,
+        "version": "3.2.3",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 79,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 26,
+            "modelId": 79,
+            "modelName": "Puppet Enterprise",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 26,
+                "type": "Manufacturer",
+                "address": "926 NW 13th Ave.",
+                "city": "Portland",
+                "country": "USA",
+                "fax": null,
+                "fullName": "Puppet Labs",
+                "manufacturerId": 26,
+                "name": "Puppet Labs",
+                "phone": "877-575-9775",
+                "postalCode": "97209",
+                "state": "Oregon",
+                "url": null
+            }
+        },
+        "warrantyType": null,
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": null,
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": null
+            },
+            {
+                "id": 35,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": "SDN"
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 33,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "RHEL 6"
+            },
+            {
+                "id": 32,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": "Free/Open-Source"
+            },
+            {
+                "id": 34,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "type": "Asset",
+        "assetNumber": "13",
+        "contractExpiration": null,
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": null,
+        "serialNumber": null,
+        "version": "3.1",
+        "assetstatus": {
+            "id": 3,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 79,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 26,
+            "modelId": 79,
+            "modelName": "Puppet Enterprise",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 26,
+                "type": "Manufacturer",
+                "address": "926 NW 13th Ave.",
+                "city": "Portland",
+                "country": "USA",
+                "fax": null,
+                "fullName": "Puppet Labs",
+                "manufacturerId": 26,
+                "name": "Puppet Labs",
+                "phone": "877-575-9775",
+                "postalCode": "97209",
+                "state": "Oregon",
+                "url": null
+            }
+        },
+        "warrantyType": null,
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": null,
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": null
+            },
+            {
+                "id": 37,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": "SDN"
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 38,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "RHEL 5"
+            },
+            {
+                "id": 39,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": ""
+            },
+            {
+                "id": 36,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "type": "Asset",
+        "assetNumber": "14",
+        "contractExpiration": null,
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": "50 HP Workstations",
+        "purchaseDate": "2014-08-22T07:00:00Z",
+        "serialNumber": null,
+        "version": null,
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": {
+            "id": 2,
+            "type": "Location",
+            "address": null,
+            "city": null,
+            "locationName": "SNL/CA",
+            "postalCode": null,
+            "state": null,
+            "defaultPriorityTypeId": null
+        },
+        "model": {
+            "id": 80,
+            "type": "Model",
+            "assetTypeId": 5,
+            "manufacturerId": 12,
+            "modelId": 80,
+            "modelName": "Z230",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 5,
+                "type": "AssetType",
+                "assetType": "Workstation"
+            },
+            "manufacturer": {
+                "id": 12,
+                "type": "Manufacturer",
+                "address": null,
+                "city": "Palo Alto",
+                "country": "USA",
+                "fax": null,
+                "fullName": "Hewlett Packard",
+                "manufacturerId": 12,
+                "name": "HP",
+                "phone": null,
+                "postalCode": null,
+                "state": "CA",
+                "url": "http://www.hp.com"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [
+            {
+                "id": 29,
+                "type": "Client"
+            }
+        ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2015-08-22T07:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 61,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "SCOPE; Site-W"
+            },
+            {
+                "id": 44,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": null
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 45,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "Windows 7"
+            },
+            {
+                "id": 42,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": ""
+            },
+            {
+                "id": 43,
+                "type": "AssetCustomField",
+                "definitionId": 28,
+                "restValue": null
+            },
+            {
+                "id": 47,
+                "type": "AssetCustomField",
+                "definitionId": 29,
+                "restValue": null
+            },
+            {
+                "id": 46,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "type": "Asset",
+        "assetNumber": "15",
+        "contractExpiration": "2015-09-30T07:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2014-08-21T07:00:00Z",
+        "serialNumber": null,
+        "version": null,
+        "assetstatus": null,
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 82,
+            "type": "Model",
+            "assetTypeId": 6,
+            "manufacturerId": 23,
+            "modelId": 82,
+            "modelName": "Software Update License & Support (1 Year)",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 6,
+                "type": "AssetType",
+                "assetType": "Software Service/Support Contract"
+            },
+            "manufacturer": {
+                "id": 23,
+                "type": "Manufacturer",
+                "address": "500 Oracle Parkway",
+                "city": "Redwood Shores",
+                "country": "USA",
+                "fax": null,
+                "fullName": "Oracle Corporation",
+                "manufacturerId": 23,
+                "name": "Oracle",
+                "phone": "+1.650.506.7000",
+                "postalCode": "94065",
+                "state": "CA",
+                "url": "http://www.oracle.com"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [
+            {
+                "id": 29,
+                "type": "Client"
+            }
+        ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2015-08-21T07:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 60,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "Catalina; SCOPE"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "type": "Asset",
+        "assetNumber": "19",
+        "contractExpiration": null,
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2014-08-22T07:00:00Z",
+        "serialNumber": "WC01111",
+        "version": null,
+        "assetstatus": {
+            "id": 1,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": {
+            "id": 2,
+            "type": "Location",
+            "address": null,
+            "city": null,
+            "locationName": "SNL/CA",
+            "postalCode": null,
+            "state": null,
+            "defaultPriorityTypeId": null
+        },
+        "model": {
+            "id": 89,
+            "type": "Model",
+            "assetTypeId": 10,
+            "manufacturerId": 12,
+            "modelId": 89,
+            "modelName": "HP Officejet Enterprise Color Flow X585z Multifunction Printer",
+            "warrantyTypeId": 2,
+            "assettype": {
+                "id": 10,
+                "type": "AssetType",
+                "assetType": "Printer"
+            },
+            "manufacturer": {
+                "id": 12,
+                "type": "Manufacturer",
+                "address": null,
+                "city": "Palo Alto",
+                "country": "USA",
+                "fax": null,
+                "fullName": "Hewlett Packard",
+                "manufacturerId": 12,
+                "name": "HP",
+                "phone": null,
+                "postalCode": null,
+                "state": "CA",
+                "url": "http://www.hp.com"
+            }
+        },
+        "warrantyType": {
+            "id": 2,
+            "type": "WarrantyType"
+        },
+        "clients": [
+            {
+                "id": 29,
+                "type": "Client"
+            }
+        ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2016-08-22T07:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 66,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "Catalina; SCOPE; Site-B; Site-W"
+            },
+            {
+                "id": 67,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": null
+            },
+            {
+                "id": 65,
+                "type": "AssetCustomField",
+                "definitionId": 29,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "Asset",
+        "assetNumber": "2",
+        "contractExpiration": "2014-08-31T07:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2013-08-31T07:00:00Z",
+        "serialNumber": null,
+        "version": "12.1",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 3,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 3,
+            "modelId": 3,
+            "modelName": "IntelliJ IDEA",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 3,
+                "type": "Manufacturer",
+                "address": null,
+                "city": null,
+                "country": "Czech Republic",
+                "fax": null,
+                "fullName": "JetBrains s.r.o.",
+                "manufacturerId": 3,
+                "name": "JetBrains",
+                "phone": "+420 2 4172 2501",
+                "postalCode": null,
+                "state": null,
+                "url": "http://www.jetbrains.com/"
+            }
+        },
+        "warrantyType": null,
+        "clients": [
+            {
+                "id": 15,
+                "type": "Client"
+            }
+        ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": null,
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 58,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "SCOPE; Site-W"
+            },
+            {
+                "id": 1,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": "SDN"
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 40,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "Windows 7"
+            },
+            {
+                "id": 41,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": ""
+            },
+            {
+                "id": 5,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "type": "Asset",
+        "assetNumber": "20",
+        "contractExpiration": null,
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": "Maintenance Support Contract for HP Z320 Workstations",
+        "purchaseDate": "2014-08-25T07:00:00Z",
+        "serialNumber": null,
+        "version": null,
+        "assetstatus": null,
+        "billingRate": null,
+        "location": {
+            "id": 2,
+            "type": "Location",
+            "address": null,
+            "city": null,
+            "locationName": "SNL/CA",
+            "postalCode": null,
+            "state": null,
+            "defaultPriorityTypeId": null
+        },
+        "model": {
+            "id": 86,
+            "type": "Model",
+            "assetTypeId": 6,
+            "manufacturerId": 12,
+            "modelId": 86,
+            "modelName": "Workstation Hardware Maintenance",
+            "warrantyTypeId": 2,
+            "assettype": {
+                "id": 6,
+                "type": "AssetType",
+                "assetType": "Software Service/Support Contract"
+            },
+            "manufacturer": {
+                "id": 12,
+                "type": "Manufacturer",
+                "address": null,
+                "city": "Palo Alto",
+                "country": "USA",
+                "fax": null,
+                "fullName": "Hewlett Packard",
+                "manufacturerId": 12,
+                "name": "HP",
+                "phone": null,
+                "postalCode": null,
+                "state": "CA",
+                "url": "http://www.hp.com"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [
+            {
+                "id": 29,
+                "type": "Client"
+            }
+        ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2015-08-25T07:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 77,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "SCOPE; Site-W"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "Asset",
+        "assetNumber": "4",
+        "contractExpiration": "2014-10-31T07:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": "Acrobat Professional 10.0\r\n1118-1105-7179-8649-3297-6230",
+        "purchaseDate": "2013-10-31T07:00:00Z",
+        "serialNumber": null,
+        "version": "10.1.9",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 4,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 4,
+            "modelId": 4,
+            "modelName": "Acrobat X Professional",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 4,
+                "type": "Manufacturer",
+                "address": null,
+                "city": null,
+                "country": "USA",
+                "fax": null,
+                "fullName": "Adobe",
+                "manufacturerId": 4,
+                "name": "Adobe",
+                "phone": null,
+                "postalCode": null,
+                "state": null,
+                "url": "http://www.adobe.com"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [
+            {
+                "id": 29,
+                "type": "Client"
+            }
+        ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2014-10-31T07:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 69,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "Catalina; SCOPE; Site-B; Site-W"
+            },
+            {
+                "id": 3,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": "SDN"
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 9,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "Windows 7"
+            },
+            {
+                "id": 26,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": "Proprietary"
+            },
+            {
+                "id": 8,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "Asset",
+        "assetNumber": "5",
+        "contractExpiration": "2014-11-30T08:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2013-11-30T08:00:00Z",
+        "serialNumber": null,
+        "version": "2.2.9",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 14,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 7,
+            "modelId": 14,
+            "modelName": "Mockups",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 7,
+                "type": "Manufacturer",
+                "address": "PO Box 1138",
+                "city": "Sacramento",
+                "country": "USA",
+                "fax": null,
+                "fullName": "Balsamiq Studios, LLC",
+                "manufacturerId": 7,
+                "name": "Balsamiq",
+                "phone": "+1 (415) 367-3531",
+                "postalCode": "95812",
+                "state": "CA",
+                "url": "http://balsamiq.com/"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2014-11-30T08:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 72,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "SCOPE"
+            },
+            {
+                "id": 4,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": "SDN"
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 6,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "Windows 7"
+            },
+            {
+                "id": 71,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": ""
+            },
+            {
+                "id": 7,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "Asset",
+        "assetNumber": "6",
+        "contractExpiration": "2014-10-31T07:00:00Z",
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2013-10-31T07:00:00Z",
+        "serialNumber": null,
+        "version": "2.50aR",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 15,
+            "type": "Model",
+            "assetTypeId": 2,
+            "manufacturerId": 8,
+            "modelId": 15,
+            "modelName": "BareTailPro",
+            "warrantyTypeId": null,
+            "assettype": {
+                "id": 2,
+                "type": "AssetType",
+                "assetType": "Software"
+            },
+            "manufacturer": {
+                "id": 8,
+                "type": "Manufacturer",
+                "address": "P.O. Box 2189",
+                "city": "Toowong",
+                "country": "Australia",
+                "fax": null,
+                "fullName": "Bare Metal Software Pty Ltd.",
+                "manufacturerId": 8,
+                "name": "Bare Metal",
+                "phone": "+61 402 339 558",
+                "postalCode": "4066",
+                "state": "Queensland",
+                "url": "https://www.baremetalsoft.com/"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2014-10-31T07:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 73,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "SCOPE; Site-W"
+            },
+            {
+                "id": 11,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": "SDN; SRN"
+            },
+            {
+                "type": "AssetCustomField",
+                "definitionId": 65,
+                "restValue": null
+            },
+            {
+                "id": 10,
+                "type": "AssetCustomField",
+                "definitionId": 15,
+                "restValue": "Windows XP; Windows 7"
+            },
+            {
+                "id": 25,
+                "type": "AssetCustomField",
+                "definitionId": 31,
+                "restValue": "Proprietary"
+            },
+            {
+                "id": 12,
+                "type": "AssetCustomField",
+                "definitionId": 14,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "Asset",
+        "assetNumber": "7",
+        "contractExpiration": null,
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2013-12-01T08:00:00Z",
+        "serialNumber": null,
+        "version": null,
+        "assetstatus": {
+            "id": 3,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 67,
+            "type": "Model",
+            "assetTypeId": 6,
+            "manufacturerId": 2,
+            "modelId": 67,
+            "modelName": "Workstation Hardware Maintenance",
+            "warrantyTypeId": 1,
+            "assettype": {
+                "id": 6,
+                "type": "AssetType",
+                "assetType": "Software Service/Support Contract"
+            },
+            "manufacturer": {
+                "id": 2,
+                "type": "Manufacturer",
+                "address": null,
+                "city": null,
+                "country": "USA",
+                "fax": null,
+                "fullName": "Microsoft",
+                "manufacturerId": 2,
+                "name": "MS",
+                "phone": null,
+                "postalCode": null,
+                "state": null,
+                "url": "http://www.microsoft.com"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2014-12-01T08:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 74,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "SCOPE; Site-W"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "Asset",
+        "assetNumber": "8",
+        "contractExpiration": null,
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": null,
+        "serialNumber": null,
+        "version": "XP",
+        "assetstatus": {
+            "id": 3,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 67,
+            "type": "Model",
+            "assetTypeId": 6,
+            "manufacturerId": 2,
+            "modelId": 67,
+            "modelName": "Workstation Hardware Maintenance",
+            "warrantyTypeId": 1,
+            "assettype": {
+                "id": 6,
+                "type": "AssetType",
+                "assetType": "Software Service/Support Contract"
+            },
+            "manufacturer": {
+                "id": 2,
+                "type": "Manufacturer",
+                "address": null,
+                "city": null,
+                "country": "USA",
+                "fax": null,
+                "fullName": "Microsoft",
+                "manufacturerId": 2,
+                "name": "MS",
+                "phone": null,
+                "postalCode": null,
+                "state": null,
+                "url": "http://www.microsoft.com"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": null,
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 75,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": null
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "Asset",
+        "assetNumber": "9",
+        "contractExpiration": null,
+        "macAddress": null,
+        "networkAddress": null,
+        "networkName": null,
+        "notes": null,
+        "purchaseDate": "2013-12-01T08:00:00Z",
+        "serialNumber": null,
+        "version": "7 SP1",
+        "assetstatus": {
+            "id": 2,
+            "type": "AssetStatus"
+        },
+        "billingRate": null,
+        "location": null,
+        "model": {
+            "id": 67,
+            "type": "Model",
+            "assetTypeId": 6,
+            "manufacturerId": 2,
+            "modelId": 67,
+            "modelName": "Workstation Hardware Maintenance",
+            "warrantyTypeId": 1,
+            "assettype": {
+                "id": 6,
+                "type": "AssetType",
+                "assetType": "Software Service/Support Contract"
+            },
+            "manufacturer": {
+                "id": 2,
+                "type": "Manufacturer",
+                "address": null,
+                "city": null,
+                "country": "USA",
+                "fax": null,
+                "fullName": "Microsoft",
+                "manufacturerId": 2,
+                "name": "MS",
+                "phone": null,
+                "postalCode": null,
+                "state": null,
+                "url": "http://www.microsoft.com"
+            }
+        },
+        "warrantyType": {
+            "id": 1,
+            "type": "WarrantyType"
+        },
+        "clients": [ ],
+        "isSynchronizationDisabled": false,
+        "isReservable": false,
+        "leaseExpirationDate": null,
+        "warrantyExpirationDate": "2014-12-01T08:00:00Z",
+        "isNotesVisibleToClients": false,
+        "isDeleted": false,
+        "assetCustomFields": [
+            {
+                "id": 76,
+                "type": "AssetCustomField",
+                "definitionId": 64,
+                "restValue": "SCOPE; Site-W"
+            },
+            {
+                "id": 18,
+                "type": "AssetCustomField",
+                "definitionId": 13,
+                "restValue": "SDN"
+            }
+        ]
+    }
+
+]
